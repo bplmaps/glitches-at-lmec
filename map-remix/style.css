@@ -1,0 +1,99 @@
+/* CSS files add styling rules to your content */
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: azo-sans-web, helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,0.1) 0%, rgba(53,187,45,0.3) 100%);
+  min-height: 100%;
+  display: flex;
+}
+
+section {
+  width: 90%;
+}
+
+div#left {
+  width: 40vw;
+  float: left;
+  height: 100vh;
+}
+
+div#right {
+  width: 60vw;
+  float: right;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 700;
+  color: black;
+}
+
+h3 {
+  font-weight: 600;
+  color: black;
+}
+
+.heading {
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #FF8D36;
+  text-shadow: 2px 2px 0 #329FAD;
+}
+
+.heading2 {
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #329FAD;
+  text-shadow: 2px 2px 0 #FF8D36;
+}
+
+.top-matter p {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#layers {
+  display: block;
+}
+
+.checkbox {
+  width: 100%;
+  margin: auto;
+}
+
+/* .input-bg {
+  background:  linear-gradient(0deg, rgba(191,58,20,0) 5%, rgba(164,75,19,0.1) 25%, rgba(170,75,11,0.1) 75%, rgba(252,36,69,0) 95%);
+}
+ */
+#leaflet-map {
+  width: 100%;
+  height: 100vh;
+}
+
+.legend-box {
+  font-weight: 600;
+/*   padding: 5px; */
+/*   display: inline-block; */
+/*   margin: 5px; */
+  
+}
+
+
+footer .small-logo {
+  height: 50px;
+  width: auto;
+}
+
+#lmec-logo {
+  height: 2.5em;
+  margin-right: 5px;
+  width: auto;
+}

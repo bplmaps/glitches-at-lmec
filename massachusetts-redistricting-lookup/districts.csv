@@ -1,0 +1,436 @@
+DISTRICTID,STFIPS,CDFIPS,STATE_ABBR,NAME,LAST_NAME,PARTY,GEO_ID
+"5600","56","00",WY,Liz Cheney,Cheney,Republican,5001600US5600
+"5401","54","01",WV,David B. McKinley,McKinley,Republican,5001600US5401
+"5402","54","02",WV,Alexander X. Mooney,Mooney,Republican,5001600US5402
+"5403","54","03",WV,Carol Miller,Miller,Republican,5001600US5403
+"5501","55","01",WI,Bryan Steil,Steil,Republican,5001600US5501
+"5502","55","02",WI,Mark Pocan,Pocan,Democrat,5001600US5502
+"5503","55","03",WI,Ron Kind,Kind,Democrat,5001600US5503
+"5504","55","04",WI,Gwen Moore,Moore,Democrat,5001600US5504
+"5505","55","05",WI,Scott Fitzgerald,Fitzgerald,Republican,5001600US5505
+"5506","55","06",WI,Glenn Grothman,Grothman,Republican,5001600US5506
+"5507","55","07",WI,Thomas P. Tiffany,Tiffany,Republican,5001600US5507
+"5508","55","08",WI,Mike Gallagher,Gallagher,Republican,5001600US5508
+"5301","53","01",WA,Suzan K. DelBene,DelBene,Democrat,5001600US5301
+"5302","53","02",WA,Rick Larsen,Larsen,Democrat,5001600US5302
+"5303","53","03",WA,Jaime Herrera Beutler,Beutler,Republican,5001600US5303
+"5304","53","04",WA,Dan Newhouse,Newhouse,Republican,5001600US5304
+"5305","53","05",WA,Cathy McMorris Rodgers,Rodgers,Republican,5001600US5305
+"5306","53","06",WA,Derek Kilmer,Kilmer,Democrat,5001600US5306
+"5307","53","07",WA,Pramila Jayapal,Jayapal,Democrat,5001600US5307
+"5308","53","08",WA,Kim Schrier ,Schrier ,Democrat,5001600US5308
+"5309","53","09",WA,Adam Smith,Smith,Democrat,5001600US5309
+"5310","53","10",WA,Marilyn Strickland,Strickland,Democrat,5001600US5310
+"5000","50","00",VT,Peter Welch,Welch,Democrat,5001600US5000
+"5101","51","01",VA,Robert J. Wittman,Wittman,Republican,5001600US5101
+"5102","51","02",VA,Elaine Luria,Luria,Democrat,5001600US5102
+"5103","51","03",VA,Robert C. “Bobby” Scott,Scott,Democrat,5001600US5103
+"5104","51","04",VA,A. Donald McEachin,McEachin,Democrat,5001600US5104
+"5105","51","05",VA,Bob Good,Good,Republican,5001600US5105
+"5106","51","06",VA,Ben Cline,Cline,Republican,5001600US5106
+"5107","51","07",VA,Abigail Davis Spanberger,Spanberger,Democrat,5001600US5107
+"5108","51","08",VA,"Donald S. Beyer, Jr.",Beyer,Democrat,5001600US5108
+"5109","51","09",VA,H. Morgan Griffith,Griffith,Republican,5001600US5109
+"5110","51","10",VA,Jennifer Wexton,Wexton,Democrat,5001600US5110
+"5111","51","11",VA,Gerald E. Connolly,Connolly,Democrat,5001600US5111
+"4901","49","01",UT,Blake Moore,Moore,Republican,5001600US4901
+"4902","49","02",UT,Chris Stewart,Stewart,Republican,5001600US4902
+"4903","49","03",UT,John R. Curtis,Curtis,Republican,5001600US4903
+"4904","49","04",UT,Burgess Owens,Owens,Republican,5001600US4904
+"4801","48","01",TX,Louie Gohmert,Gohmert,Republican,5001600US4801
+"4802","48","02",TX,Daniel Crenshaw,Crenshaw,Republican,5001600US4802
+"4803","48","03",TX,Van Taylor,Taylor,Republican,5001600US4803
+"4804","48","04",TX,Pat Fallon,Fallon,Republican,5001600US4804
+"4805","48","05",TX,Lance Gooden,Gooden,Republican,5001600US4805
+"4806","48","06",TX,Jake Ellzey,Ellzey,Republican,5001600US4806
+"4807","48","07",TX,Lizzie Fletcher,Fletcher,Democrat,5001600US4807
+"4808","48","08",TX,Kevin Brady,Brady,Republican,5001600US4808
+"4809","48","09",TX,Al Green,Green,Democrat,5001600US4809
+"4810","48","10",TX,Michael T. McCaul,McCaul,Republican,5001600US4810
+"4811","48","11",TX,August Pfluger,Pfluger,Republican,5001600US4811
+"4812","48","12",TX,Kay Granger,Granger,Republican,5001600US4812
+"4813","48","13",TX,Ronny Jackson,Jackson,Republican,5001600US4813
+"4814","48","14",TX,Randy K. Weber Sr.,Weber,Republican,5001600US4814
+"4815","48","15",TX,Vicente Gonzalez,Gonzalez,Democrat,5001600US4815
+"4816","48","16",TX,Veronica Escobar,Escobar,Democrat,5001600US4816
+"4817","48","17",TX,Pete Sessions,Sessions,Republican,5001600US4817
+"4818","48","18",TX,Sheila Jackson Lee,Lee,Democrat,5001600US4818
+"4819","48","19",TX,Jodey C. Arrington,Arrington,Republican,5001600US4819
+"4820","48","20",TX,Joaquin Castro,Castro,Democrat,5001600US4820
+"4821","48","21",TX,Chip Roy,Roy,Republican,5001600US4821
+"4822","48","22",TX,Troy Nehis,Nehis,Republican,5001600US4822
+"4823","48","23",TX,Tony Gonzales,Gonzales,Republican,5001600US4823
+"4824","48","24",TX,Beth Van Duyne,Van Duyne,Republican,5001600US4824
+"4825","48","25",TX,Roger Williams,Williams,Republican,5001600US4825
+"4826","48","26",TX,Michael C. Burgess,Burgess,Republican,5001600US4826
+"4827","48","27",TX,Michael Cloud,Cloud,Republican,5001600US4827
+"4828","48","28",TX,Henry Cuellar,Cuellar,Democrat,5001600US4828
+"4829","48","29",TX,Sylvia R. Garcia,Garcia,Democrat,5001600US4829
+"4830","48","30",TX,Eddie Bernice Johnson,Johnson,Democrat,5001600US4830
+"4831","48","31",TX,John R. Carter,Carter,Republican,5001600US4831
+"4832","48","32",TX,Colin Z. Allred,Allred,Democrat,5001600US4832
+"4833","48","33",TX,Marc A. Veasey,Veasey,Democrat,5001600US4833
+"4834","48","34",TX,Filemon Vela,Vela,Democrat,5001600US4834
+"4835","48","35",TX,Lloyd Doggett,Doggett,Democrat,5001600US4835
+"4836","48","36",TX,Brian Babin,Babin,Republican,5001600US4836
+"4701","47","01",TN,Diana Harshbarger,Harshbarger,Republican,5001600US4701
+"4702","47","02",TN,Tim Burchett,Burchett,Republican,5001600US4702
+"4703","47","03",TN,Charles J. “Chuck” Fleischmann,Fleischmann,Republican,5001600US4703
+"4704","47","04",TN,Scott DesJarlais,DesJarlais,Republican,5001600US4704
+"4705","47","05",TN,Jim Cooper,Cooper,Democrat,5001600US4705
+"4706","47","06",TN,John W. Rose,Rose,Republican,5001600US4706
+"4707","47","07",TN,Mark E. Green,Green,Republican,5001600US4707
+"4708","47","08",TN,David Kustoff,Kustoff,Republican,5001600US4708
+"4709","47","09",TN,Steve Cohen,Cohen,Democrat,5001600US4709
+"4600","46","00",SD,Dusty Johnson,Johnson,Republican,5001600US4600
+"4501","45","01",SC,Nancy Mace,Mace,Republican,5001600US4501
+"4502","45","02",SC,Joe Wilson,Wilson,Republican,5001600US4502
+"4503","45","03",SC,Jeff Duncan,Duncan,Republican,5001600US4503
+"4504","45","04",SC,William R. Timmons IV,Timmons ,Republican,5001600US4504
+"4505","45","05",SC,Ralph Norman,Norman,Republican,5001600US4505
+"4506","45","06",SC,James E. Clyburn,Clyburn,Democrat,5001600US4506
+"4507","45","07",SC,Tom Rice,Rice,Republican,5001600US4507
+"4401","44","01",RI,David N. Cicilline,Cicilline,Democrat,5001600US4401
+"4402","44","02",RI,James R. Langevin,Langevin,Democrat,5001600US4402
+"4201","42","01",PA,Brian Fitzpatrick,Fitzpatrick,Republican,5001600US4201
+"4202","42","02",PA,Brendan Boyle,Boyle,Democrat,5001600US4202
+"4203","42","03",PA,Dwight Evans,Evans,Democrat,5001600US4203
+"4204","42","04",PA,Madeleine Dean,Dean,Democrat,5001600US4204
+"4205","42","05",PA,Mary Gay Scanlon,Scanlon,Democrat,5001600US4205
+"4206","42","06",PA,Chrissy Houlahan,Houlahan,Democrat,5001600US4206
+"4207","42","07",PA,Susan Wild,Wild,Democrat,5001600US4207
+"4208","42","08",PA,Matt Cartwright,Cartwright,Democrat,5001600US4208
+"4209","42","09",PA,Dan Meuser,Meuser,Republican,5001600US4209
+"4210","42","10",PA,Scott Perry,Perry,Republican,5001600US4210
+"4211","42","11",PA,Lloyd Smucker,Smucker,Republican,5001600US4211
+"4212","42","12",PA,Fred Keller,Keller,Republican,5001600US4212
+"4213","42","13",PA,John Joyce,Joyce,Republican,5001600US4213
+"4214","42","14",PA,Guy Reschenthaler,Reschenthaler,Republican,5001600US4214
+"4215","42","15",PA,Glenn Thompson,Thompson,Republican,5001600US4215
+"4216","42","16",PA,Mike Kelly,Kelly,Republican,5001600US4216
+"4217","42","17",PA,Conor Lamb,Lamb,Democrat,5001600US4217
+"4218","42","18",PA,Michael F. Doyle,Doyle,Democrat,5001600US4218
+"4101","41","01",OR,Suzanne Bonamici,Bonamici,Democrat,5001600US4101
+"4102","41","02",OR,Cliff Bentz,Bentz,Republican,5001600US4102
+"4103","41","03",OR,Earl Blumenauer,Blumenauer,Democrat,5001600US4103
+"4104","41","04",OR,Peter A. DeFazio,DeFazio,Democrat,5001600US4104
+"4105","41","05",OR,Kurt Schrader,Schrader,Democrat,5001600US4105
+"4001","40","01",OK,Kevin Hern,Hern,Republican,5001600US4001
+"4002","40","02",OK,Markwayne Mullin,Mullin,Republican,5001600US4002
+"4003","40","03",OK,Frank D. Lucas,Lucas,Republican,5001600US4003
+"4004","40","04",OK,Tom Cole,Cole,Republican,5001600US4004
+"4005","40","05",OK,Stephanie Bice,Bice,Republican,5001600US4005
+"3901","39","01",OH,Steve Chabot,Chabot,Republican,5001600US3901
+"3902","39","02",OH,Brad R. Wenstrup,Wenstrup,Republican,5001600US3902
+"3903","39","03",OH,Joyce Beatty,Beatty,Democrat,5001600US3903
+"3904","39","04",OH,Jim Jordan,Jordan,Republican,5001600US3904
+"3905","39","05",OH,Robert E. Latta,Latta,Republican,5001600US3905
+"3906","39","06",OH,Bill Johnson,Johnson,Republican,5001600US3906
+"3907","39","07",OH,Bob Gibbs,Gibbs,Republican,5001600US3907
+"3908","39","08",OH,Warren Davidson,Davidson,Republican,5001600US3908
+"3909","39","09",OH,Marcy Kaptur,Kaptur,Democrat,5001600US3909
+"3910","39","10",OH,Michael R. Turner,Turner,Republican,5001600US3910
+"3911","39","11",OH,,,Vacant,5001600US3911
+"3912","39","12",OH,Troy Balderson,Balderson,Republican,5001600US3912
+"3913","39","13",OH,Tim Ryan,Ryan,Democrat,5001600US3913
+"3914","39","14",OH,David P. Joyce,Joyce,Republican,5001600US3914
+"3915","39","15",OH,Steve Stivers,Stivers,Republican,5001600US3915
+"3916","39","16",OH,Anthony Gonzalez,Gonzalez,Republican,5001600US3916
+"3601","36","01",NY,Lee M. Zeldin,Zeldin,Republican,5001600US3601
+"3602","36","02",NY,Andrew Garbarino,Garbarino,Republican,5001600US3602
+"3603","36","03",NY,Thomas R. Suozzi,Suozzi,Democrat,5001600US3603
+"3604","36","04",NY,Kathleen M. Rice,Rice,Democrat,5001600US3604
+"3605","36","05",NY,Gregory W. Meeks,Meeks,Democrat,5001600US3605
+"3606","36","06",NY,Grace Meng,Meng,Democrat,5001600US3606
+"3607","36","07",NY,Nydia M. Velázquez,Velázquez,Democrat,5001600US3607
+"3608","36","08",NY,Hakeem S. Jeffries,Jeffries,Democrat,5001600US3608
+"3609","36","09",NY,Yvette D. Clarke,Clarke,Democrat,5001600US3609
+"3610","36","10",NY,Jerrold Nadler,Nadler,Democrat,5001600US3610
+"3611","36","11",NY,Nicole Malliotakis,Malliotakis,Republican,5001600US3611
+"3612","36","12",NY,Carolyn B. Maloney,Maloney,Democrat,5001600US3612
+"3613","36","13",NY,Adriano Espaillat,Espaillat,Democrat,5001600US3613
+"3614","36","14",NY,Alexandria Ocasio-Cortez,Ocasio-Cortez,Democrat,5001600US3614
+"3615","36","15",NY,Ritchie Torres,Torres,Democrat,5001600US3615
+"3616","36","16",NY,Jamaal Bowman,Bowman,Democrat,5001600US3616
+"3617","36","17",NY,Mondaire Jones,Jones,Democrat,5001600US3617
+"3618","36","18",NY,Sean Patrick Maloney,Maloney,Democrat,5001600US3618
+"3619","36","19",NY,Antonio Delgado,Delgado,Democrat,5001600US3619
+"3620","36","20",NY,Paul Tonko,Tonko,Democrat,5001600US3620
+"3621","36","21",NY,Elise M. Stefanik,Stefanik,Republican,5001600US3621
+"3622","36","22",NY,Claudia Tenney,Tenney,Republican,5001600US3622
+"3623","36","23",NY,Tom Reed,Reed,Republican,5001600US3623
+"3624","36","24",NY,John Katko,Katko,Republican,5001600US3624
+"3625","36","25",NY,Joseph D. Morelle,Morelle,Democrat,5001600US3625
+"3626","36","26",NY,Brian Higgins,Higgins,Democrat,5001600US3626
+"3627","36","27",NY,Chris Jacobs,Jacobs,Republican,5001600US3627
+"3201","32","01",NV,Dina Titus,Titus,Democrat,5001600US3201
+"3202","32","02",NV,Mark E. Amodei,Amodei,Republican,5001600US3202
+"3203","32","03",NV,Susie Lee,Lee,Democrat,5001600US3203
+"3204","32","04",NV,Steven Horsford,Horsford,Democrat,5001600US3204
+"3501","35","01",NM,Melanie Stansbury,Stansbury,Democrat,5001600US3501
+"3502","35","02",NM,Yvette Herrell,Herrell,Republican,5001600US3502
+"3503","35","03",NM,Teresa Leger Fernandez,Fernandez,Democrat,5001600US3503
+"3401","34","01",NJ,Donald Norcross,Norcross,Democrat,5001600US3401
+"3402","34","02",NJ,Jeff Van Drew,Drew,Democrat,5001600US3402
+"3403","34","03",NJ,Andy Kim,Kim,Democrat,5001600US3403
+"3404","34","04",NJ,Christopher H. Smith,Smith,Republican,5001600US3404
+"3405","34","05",NJ,Josh S. Gottheimer,Gottheimer,Democrat,5001600US3405
+"3406","34","06",NJ,Frank Pallone Jr.,Pallone,Democrat,5001600US3406
+"3407","34","07",NJ,Tom Malinowski,Malinowski,Democrat,5001600US3407
+"3408","34","08",NJ,Albio Sires,Sires,Democrat,5001600US3408
+"3409","34","09",NJ,Bill Pascrell Jr.,Pascrell,Democrat,5001600US3409
+"3410","34","10",NJ,Donald M. Payne Jr.,Payne,Democrat,5001600US3410
+"3411","34","11",NJ,Mikie Sherrill,Sherrill,Democrat,5001600US3411
+"3412","34","12",NJ,Bonnie Watson Coleman,Coleman,Democrat,5001600US3412
+"3301","33","01",NH,Chris Pappas,Pappas,Democrat,5001600US3301
+"3302","33","02",NH,Ann M. Kuster,Kuster,Democrat,5001600US3302
+"3101","31","01",NE,Jeff Fortenberry,Fortenberry,Republican,5001600US3101
+"3102","31","02",NE,Don Bacon,Bacon,Republican,5001600US3102
+"3103","31","03",NE,Adrian Smith,Smith,Republican,5001600US3103
+"3800","38","00",ND,Kelly Armstrong,Armstrong,Republican,5001600US3800
+"3701","37","01",NC,G. K. Butterfield,Butterfield,Democrat,5001600US3701
+"3702","37","02",NC,Deborah K. Ross,Ross,Democrat,5001600US3702
+"3703","37","03",NC,Gregory F. Murphy,Murphy,Republican,5001600US3703
+"3704","37","04",NC,David E. Price,Price,Democrat,5001600US3704
+"3705","37","05",NC,Virginia Foxx,Foxx,Republican,5001600US3705
+"3706","37","06",NC,Kathy Manning,Manning,Democrat,5001600US3706
+"3707","37","07",NC,David Rouzer,Rouzer,Republican,5001600US3707
+"3708","37","08",NC,Richard Hudson,Hudson,Republican,5001600US3708
+"3709","37","09",NC,Dan Bishop,Bishop,Republican,5001600US3709
+"3710","37","10",NC,Patrick T. McHenry,McHenry,Republican,5001600US3710
+"3711","37","11",NC,Madison Cawthorn,Cawthorn,Republican,5001600US3711
+"3712","37","12",NC,Alma S. Adams,Adams,Democrat,5001600US3712
+"3713","37","13",NC,Ted Budd,Budd,Republican,5001600US3713
+"3000","30","00",MT,Matt Rosendale,Rosendale,Republican,5001600US3000
+"2801","28","01",MS,Trent Kelly,Kelly,Republican,5001600US2801
+"2802","28","02",MS,Bennie G. Thompson,Thompson,Democrat,5001600US2802
+"2803","28","03",MS,Michael Guest,Guest,Republican,5001600US2803
+"2804","28","04",MS,Steven M. Palazzo,Palazzo,Republican,5001600US2804
+"2901","29","01",MO,Cori Bush,Bush,Democrat,5001600US2901
+"2902","29","02",MO,Ann Wagner,Wagner,Republican,5001600US2902
+"2903","29","03",MO,Blaine Luetkemeyer,Luetkemeyer,Republican,5001600US2903
+"2904","29","04",MO,Vicky Hartzler,Hartzler,Republican,5001600US2904
+"2905","29","05",MO,Emanuel Cleaver,Cleaver,Democrat,5001600US2905
+"2906","29","06",MO,Sam Graves,Graves,Republican,5001600US2906
+"2907","29","07",MO,Billy Long,Long,Republican,5001600US2907
+"2908","29","08",MO,Jason Smith,Smith,Republican,5001600US2908
+"2701","27","01",MN,Jim Hagedorn,Hagedorn,Republican,5001600US2701
+"2702","27","02",MN,Angie Craig,Craig,Democrat,5001600US2702
+"2703","27","03",MN,Dean Phillips,Phillips,Democrat,5001600US2703
+"2704","27","04",MN,Betty McCollum,McCollum,Democrat,5001600US2704
+"2705","27","05",MN,Ilhan Omar,Omar,Democrat,5001600US2705
+"2706","27","06",MN,Tom Emmer,Emmer,Republican,5001600US2706
+"2707","27","07",MN,Michelle Fischbach,Fischbach,Republican,5001600US2707
+"2708","27","08",MN,Pete Stauber,Stauber,Republican,5001600US2708
+"2601","26","01",MI,Jack Bergman,Bergman,Republican,5001600US2601
+"2602","26","02",MI,Bill Huizenga,Huizenga,Republican,5001600US2602
+"2603","26","03",MI,Peter Meijer,Meijer,Republican,5001600US2603
+"2604","26","04",MI,John R. Moolenaar,Moolenaar,Republican,5001600US2604
+"2605","26","05",MI,Daniel T. Kildee,Kildee,Democrat,5001600US2605
+"2606","26","06",MI,Fred Upton,Upton,Republican,5001600US2606
+"2607","26","07",MI,Tim Walberg,Walberg,Republican,5001600US2607
+"2608","26","08",MI,Elissa Slotkin,Slotkin,Democrat,5001600US2608
+"2609","26","09",MI,Andy Levin,Levin,Democrat,5001600US2609
+"2610","26","10",MI,Lisa McClain,McClain,Republican,5001600US2610
+"2611","26","11",MI,Haley Stevens,Stevens,Democrat,5001600US2611
+"2612","26","12",MI,Debbie Dingell,Dingell,Democrat,5001600US2612
+"2613","26","13",MI,Rashida Tlaib,Tlaib,Democrat,5001600US2613
+"2614","26","14",MI,Brenda L. Lawrence,Peters,Democrat,5001600US2614
+"2301","23","01",ME,Chellie Pingree,Pingree,Democrat,5001600US2301
+"2302","23","02",ME,Jared F. Golden,Golden,Democrat,5001600US2302
+"2401","24","01",MD,Andy Harris,Harris,Republican,5001600US2401
+"2402","24","02",MD,C. A. Dutch Ruppersberger,Ruppersberger,Democrat,5001600US2402
+"2403","24","03",MD,John P. Sarbanes,Sarbanes,Democrat,5001600US2403
+"2404","24","04",MD,Anthony G. Brown,Brown,Democrat,5001600US2404
+"2405","24","05",MD,Steny H. Hoyer,Hoyer,Democrat,5001600US2405
+"2406","24","06",MD,David Trone,Trone,Democrat,5001600US2406
+"2407","24","07",MD,Kweisi Mfume,Mfume,Democrat,5001600US2407
+"2408","24","08",MD,Jamie Raskin,Raskin,Democrat,5001600US2408
+"2501","25","01",MA,Richard E. Neal,Neal,Democrat,5001600US2501
+"2502","25","02",MA,James P. McGovern,McGovern,Democrat,5001600US2502
+"2503","25","03",MA,Lori Trahan,Trahan,Democrat,5001600US2503
+"2504","25","04",MA,Jake Auchincloss,Auchincloss,Democrat,5001600US2504
+"2505","25","05",MA,Katherine M. Clark,Clark,Democrat,5001600US2505
+"2506","25","06",MA,Seth Moulton,Moulton,Democrat,5001600US2506
+"2507","25","07",MA,Ayanna Pressley,Pressley,Democrat,5001600US2507
+"2508","25","08",MA,Stephen F. Lynch,Lynch,Democrat,5001600US2508
+"2509","25","09",MA,William R. Keating,Keating,Democrat,5001600US2509
+"2201","22","01",LA,Steve Scalise,Scalise,Republican,5001600US2201
+"2202","22","02",LA,Troy Carter,Carter,Democrat,5001600US2202
+"2203","22","03",LA,Clay Higgins,Higgins,Republican,5001600US2203
+"2204","22","04",LA,Mike Johnson,Johnson,Republican,5001600US2204
+"2205","22","05",LA,Julia Letlow,Letlow,Republican,5001600US2205
+"2206","22","06",LA,Garret Graves,Graves,Republican,5001600US2206
+"2101","21","01",KY,James Comer,Comer,Republican,5001600US2101
+"2102","21","02",KY,Brett Guthrie,Guthrie,Republican,5001600US2102
+"2103","21","03",KY,John A. Yarmuth,Yarmuth,Democrat,5001600US2103
+"2104","21","04",KY,Thomas Massie,Massie,Republican,5001600US2104
+"2105","21","05",KY,Harold Rogers,Rogers,Republican,5001600US2105
+"2106","21","06",KY,Andy Barr,Barr,Republican,5001600US2106
+"2001","20","01",KS,Tracy Mann,Mann,Republican,5001600US2001
+"2002","20","02",KS,Jake LaTurner,LaTurner,Republican,5001600US2002
+"2003","20","03",KS,Sharice Davids,Davids,Democrat,5001600US2003
+"2004","20","04",KS,Ron Estes,Estes,Republican,5001600US2004
+"1801","18","01",IN,Frank J. Mrvan,Mrvan,Democrat,5001600US1801
+"1802","18","02",IN,Jackie Walorski,Walorski,Republican,5001600US1802
+"1803","18","03",IN,Jim Banks,Banks,Republican,5001600US1803
+"1804","18","04",IN,James R. Baird,Baird,Republican,5001600US1804
+"1805","18","05",IN,Victoria Spartz,Spartz,Republican,5001600US1805
+"1806","18","06",IN,Greg Pence,Pence,Republican,5001600US1806
+"1807","18","07",IN,André Carson,Carson,Democrat,5001600US1807
+"1808","18","08",IN,Larry Bucshon,Bucshon,Republican,5001600US1808
+"1809","18","09",IN,Trey Hollingsworth,Hollingsworth,Republican,5001600US1809
+"1701","17","01",IL,Bobby L. Rush,Rush,Democrat,5001600US1701
+"1702","17","02",IL,Robin L. Kelly,Kelly,Democrat,5001600US1702
+"1703","17","03",IL,DMarie Newman,Newman,Democrat,5001600US1703
+"1704","17","04",IL,Jesús G. Garcia,Garcia,Democrat,5001600US1704
+"1705","17","05",IL,Mike Quigley,Quigley,Democrat,5001600US1705
+"1706","17","06",IL,Sean Casten,Casten,Democrat,5001600US1706
+"1707","17","07",IL,Danny K. Davis,Davis,Democrat,5001600US1707
+"1708","17","08",IL,Raja Krishnamoorthi,Krishnamoorthi,Democrat,5001600US1708
+"1709","17","09",IL,Janice D. Schakowsky,Schakowsky,Democrat,5001600US1709
+"1710","17","10",IL,Bradley Scott Schneider,Schneider,Democrat,5001600US1710
+"1711","17","11",IL,Bill Foster,Foster,Democrat,5001600US1711
+"1712","17","12",IL,Mike Bost,Bost,Republican,5001600US1712
+"1713","17","13",IL,Rodney Davis,Davis,Republican,5001600US1713
+"1714","17","14",IL,Lauren Underwood,Underwood,Democrat,5001600US1714
+"1715","17","15",IL,Mary Miller,Miller,Republican,5001600US1715
+"1716","17","16",IL,Adam Kinzinger,Kinzinger,Republican,5001600US1716
+"1717","17","17",IL,Cheri Bustos,Bustos,Democrat,5001600US1717
+"1718","17","18",IL,Darin LaHood,LaHood,Republican,5001600US1718
+"1601","16","01",ID,Russ Fulcher,Fulcher,Republican,5001600US1601
+"1602","16","02",ID,Michael K. Simpson,Simpson,Republican,5001600US1602
+"1901","19","01",IA,Ashley Hinson,Hinson,Republican,5001600US1901
+"1902","19","02",IA,Mariannette Miller-Meeks,Miller-Meeks,Republican,5001600US1902
+"1903","19","03",IA,Cindy Axne,Axne,Democrat,5001600US1903
+"1904","19","04",IA,Randy Feenstra,Feenstra,Republican,5001600US1904
+"1501","15","01",HI,Ed Case,Case,Democrat,5001600US1501
+"1502","15","02",HI,Kai Kahele,Kahele,Democrat,5001600US1502
+"1301","13","01",GA,Earl L. “Buddy” Carter,Carter,Republican,5001600US1301
+"1302","13","02",GA,Sanford D. Bishop Jr.,Bishop,Democrat,5001600US1302
+"1303","13","03",GA,A. Drew Ferguson IV,Ferguson,Republican,5001600US1303
+"1304","13","04",GA,Henry C. “Hank” Johnson Jr.,Johnson,Democrat,5001600US1304
+"1305","13","05",GA,Nikema Williams,Williams,Democrat,5001600US1305
+"1306","13","06",GA,Lucy McBath,McBath,Democrat,5001600US1306
+"1307","13","07",GA,Carolyn Bourdeaux,Bourdeaux,Democrat,5001600US1307
+"1308","13","08",GA,Austin Scott,Scott,Republican,5001600US1308
+"1309","13","09",GA,Andrew Clyde,Clyde,Republican,5001600US1309
+"1310","13","10",GA,Jody B. Hice,Hice,Republican,5001600US1310
+"1311","13","11",GA,Barry Loudermilk,Loudermilk,Republican,5001600US1311
+"1312","13","12",GA,Rick W. Allen,Allen,Republican,5001600US1312
+"1313","13","13",GA,David Scott,Scott,Democrat,5001600US1313
+"1314","13","14",GA,Marjorie Taylor Greene,Greene,Republican,5001600US1314
+"1201","12","01",FL,Matt Gaetz,Gaetz,Republican,5001600US1201
+"1202","12","02",FL,Neil P. Dunn,Dunn,Republican,5001600US1202
+"1203","12","03",FL,Kat Cammack,Cammack,Republican,5001600US1203
+"1204","12","04",FL,John H. Rutherford,Rutherford,Republican,5001600US1204
+"1205","12","05",FL,"Al Lawson, Jr.",Lawson,Democrat,5001600US1205
+"1206","12","06",FL,Mike Waltz,Waltz,Republican,5001600US1206
+"1207","12","07",FL,Stephanie N. Murphy,Murphy,Democrat,5001600US1207
+"1208","12","08",FL,Bill Posey,Posey,Republican,5001600US1208
+"1209","12","09",FL,Darren Soto,Soto,Democrat,5001600US1209
+"1210","12","10",FL,Val Butler Demings,Demings,Democrat,5001600US1210
+"1211","12","11",FL,Daniel Webster,Webster,Republican,5001600US1211
+"1212","12","12",FL,Gus M. Bilirakis,Bilirakis,Republican,5001600US1212
+"1213","12","13",FL,Charlie Crist,Crist,Democrat,5001600US1213
+"1214","12","14",FL,Kathy Castor,Castor,Democrat,5001600US1214
+"1215","12","15",FL,Scott Franklin,Franklin,Republican,5001600US1215
+"1216","12","16",FL,Vern Buchanan,Buchanan,Republican,5001600US1216
+"1217","12","17",FL,W. Gregory Steube,Steube,Republican,5001600US1217
+"1218","12","18",FL,Brian J. Mast,Mast,Republican,5001600US1218
+"1219","12","19",FL,Byron Donalds,Donalds,Republican,5001600US1219
+"1220","12","20",FL,Alcee L. Hastings,Hastings,Democrat,5001600US1220
+"1221","12","21",FL,Lois Frankel,Frankel,Democrat,5001600US1221
+"1222","12","22",FL,Theodore E. Deutch,Deutch,Democrat,5001600US1222
+"1223","12","23",FL,Debbie Wasserman Schultz,Schultz,Democrat,5001600US1223
+"1224","12","24",FL,Frederica S. Wilson,Wilson,Democrat,5001600US1224
+"1225","12","25",FL,Mario Diaz-Balart,Diaz-Balart,Republican,5001600US1225
+"1226","12","26",FL,Carlos Gimenez,Gimenez,Republican,5001600US1226
+"1227","12","27",FL,Maria Elvira Salazar,Salazar,Republican,5001600US1227
+"1000","10","00",DE,Lisa Blunt Rochester,Rochester,Democrat,5001600US1000
+"0901","09","01",CT,John B. Larson,Larson,Democrat,5001600US0901
+"0902","09","02",CT,Joe Courtney,Courtney,Democrat,5001600US0902
+"0903","09","03",CT,Rosa L. DeLauro,DeLauro,Democrat,5001600US0903
+"0904","09","04",CT,James A. Himes,Himes,Democrat,5001600US0904
+"0905","09","05",CT,Jahana Hayes,Hayes,Democrat,5001600US0905
+"0801","08","01",CO,Diana DeGette,DeGette,Democrat,5001600US0801
+"0802","08","02",CO,Joe Neguse,Neguse,Democrat,5001600US0802
+"0803","08","03",CO,Lauren Boebert,Boebert,Republican,5001600US0803
+"0804","08","04",CO,Ken Buck,Buck,Republican,5001600US0804
+"0805","08","05",CO,Doug Lamborn,Lamborn,Republican,5001600US0805
+"0806","08","06",CO,Jason A. Crow,Crow,Democrat,5001600US0806
+"0807","08","07",CO,Ed Perlmutter,Perlmutter,Democrat,5001600US0807
+"0601","06","01",CA,Doug LaMalfa,LaMalfa,Republican,5001600US0601
+"0602","06","02",CA,Jared Huffman,Huffman,Democrat,5001600US0602
+"0603","06","03",CA,John Garamendi,Garamendi,Democrat,5001600US0603
+"0604","06","04",CA,Tom McClintock,McClintock,Republican,5001600US0604
+"0605","06","05",CA,Mike Thompson,Thompson,Democrat,5001600US0605
+"0606","06","06",CA,Doris O. Matsui,Matsui,Democrat,5001600US0606
+"0607","06","07",CA,Ami Bera,Bera,Democrat,5001600US0607
+"0608","06","08",CA,Jay Obernolte,Obernolte,Republican,5001600US0608
+"0609","06","09",CA,Jerry McNerney,McNerney,Democrat,5001600US0609
+"0610","06","10",CA,Josh Harder,Harder,Democrat,5001600US0610
+"0611","06","11",CA,Mark DeSaulnier,DeSaulnier,Democrat,5001600US0611
+"0612","06","12",CA,Nancy Pelosi,Pelosi,Democrat,5001600US0612
+"0613","06","13",CA,Barbara Lee,Lee,Democrat,5001600US0613
+"0614","06","14",CA,Jackie Speier,Speier,Democrat,5001600US0614
+"0615","06","15",CA,Eric Swalwell,Swalwell,Democrat,5001600US0615
+"0616","06","16",CA,Jim Costa,Costa,Democrat,5001600US0616
+"0617","06","17",CA,Ro Khanna,Khanna,Democrat,5001600US0617
+"0618","06","18",CA,Anna G. Eshoo,Eshoo,Democrat,5001600US0618
+"0619","06","19",CA,Zoe Lofgren,Lofgren,Democrat,5001600US0619
+"0620","06","20",CA,Jimmy Panetta,Panetta,Democrat,5001600US0620
+"0621","06","21",CA,David Valadao,Valadao,Republican,5001600US0621
+"0622","06","22",CA,Devin Nunes,Nunes,Republican,5001600US0622
+"0623","06","23",CA,Kevin McCarthy,McCarthy,Republican,5001600US0623
+"0624","06","24",CA,Salud O. Carbajal,Carbajal,Democrat,5001600US0624
+"0625","06","25",CA,Mike Garcia,Garcia,Republican,5001600US0625
+"0626","06","26",CA,Julia Brownley,Brownley,Democrat,5001600US0626
+"0627","06","27",CA,Judy Chu,Chu,Democrat,5001600US0627
+"0628","06","28",CA,Adam B. Schiff,Schiff,Democrat,5001600US0628
+"0629","06","29",CA,Tony Cárdenas,Cárdenas,Democrat,5001600US0629
+"0630","06","30",CA,Brad Sherman,Sherman,Democrat,5001600US0630
+"0631","06","31",CA,Pete Aguilar,Aguilar,Democrat,5001600US0631
+"0632","06","32",CA,Grace F. Napolitano,Napolitano,Democrat,5001600US0632
+"0633","06","33",CA,Ted Lieu,Lieu,Democrat,5001600US0633
+"0634","06","34",CA,Jimmy Gomez,Gomez,Democrat,5001600US0634
+"0635","06","35",CA,Norma J. Torres,Torres,Democrat,5001600US0635
+"0636","06","36",CA,Raul Ruiz,Ruiz,Democrat,5001600US0636
+"0637","06","37",CA,Karen Bass,Bass,Democrat,5001600US0637
+"0638","06","38",CA,Linda T. Sánchez,Sánchez,Democrat,5001600US0638
+"0639","06","39",CA,Young Kim,Kim,Republican,5001600US0639
+"0640","06","40",CA,Lucille Roybal-Allard,Roybal-Allard,Democrat,5001600US0640
+"0641","06","41",CA,Mark Takano,Takano,Democrat,5001600US0641
+"0642","06","42",CA,Ken Calvert,Calvert,Republican,5001600US0642
+"0643","06","43",CA,Maxine Waters,Waters,Democrat,5001600US0643
+"0644","06","44",CA,Nanette Diaz Barragan,Barragan,Democrat,5001600US0644
+"0645","06","45",CA,Katie Porter,Porter,Democrat,5001600US0645
+"0646","06","46",CA,J. Luis Correa,Correa,Democrat,5001600US0646
+"0647","06","47",CA,Alan S. Lowenthal,Lowenthal,Democrat,5001600US0647
+"0648","06","48",CA,Michelle Steel,Steel,Republican,5001600US0648
+"0649","06","49",CA,Mike Levin,Levin,Democrat,5001600US0649
+"0650","06","50",CA,Darrell Issa,Issa,Republican,5001600US0650
+"0651","06","51",CA,Juan Vargas,Vargas,Democrat,5001600US0651
+"0652","06","52",CA,Scott H. Peters,Peters,Democrat,5001600US0652
+"0653","06","53",CA,Sara Jacobs,Jacobs,Democrat,5001600US0653
+"0401","04","01",AZ,Tom O'Halleran,O'Halleran,Democrat,5001600US0401
+"0402","04","02",AZ,Ann Kirkpatrick,Kirkpatrick,Democrat,5001600US0402
+"0403","04","03",AZ,Raúl M. Grijalva,Grijalva,Democrat,5001600US0403
+"0404","04","04",AZ,Paul A. Gosar,Gosar,Republican,5001600US0404
+"0405","04","05",AZ,Andy Biggs,Biggs,Republican,5001600US0405
+"0406","04","06",AZ,David Schweikert,Schweikert,Republican,5001600US0406
+"0407","04","07",AZ,Ruben Gallego,Gallego,Democrat,5001600US0407
+"0408","04","08",AZ,Debbie Lesko,Lesko,Republican,5001600US0408
+"0409","04","09",AZ,Greg Stanton,Stanton,Democrat,5001600US0409
+"0501","05","01",AR,Eric A. “Rick” Crawford,Crawford,Republican,5001600US0501
+"0502","05","02",AR,J. French Hill,Hill,Republican,5001600US0502
+"0503","05","03",AR,Steve Womack,Womack,Republican,5001600US0503
+"0504","05","04",AR,Bruce Westerman,Westerman,Republican,5001600US0504
+"0101","01","01",AL,Jerry Carl,Carl,Republican,5001600US0101
+"0102","01","02",AL,Barry Moore,Moore,Republican,5001600US0102
+"0103","01","03",AL,Mike Rogers,Rogers,Republican,5001600US0103
+"0104","01","04",AL,Robert B. Aderholt,Aderholt,Republican,5001600US0104
+"0105","01","05",AL,Mo Brooks,Brooks,Republican,5001600US0105
+"0106","01","06",AL,Gary J. Palmer,Palmer,Republican,5001600US0106
+"0107","01","07",AL,Terri A. Sewell,Sewell,Democrat,5001600US0107
+"0200","02","00",AK,Don Young,Young,Republican,5001600US0200

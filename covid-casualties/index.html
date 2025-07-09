@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+    />
+
+    <title>
+      Covid Casualties Map · Visualizing how big of a hole 800,000 people would leave · Leventhal Map & Education Center
+    </title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="https://unpkg.com/geoblaze@1.0.3/dist/geoblaze.web.min.js"></script>
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="top-matter mb-4">
+      <div class="glitchButton m-3" style="float:right">
+        <img
+          src="https://geoservices.leventhalmap.org/files/LMEC_compass.png"
+          id="lmec-logo"
+          alt="LMEC Logo"
+        />
+      </div>
+      <div class="container">
+        <h1 class="heading is-size-2 has-text-centered">
+          Covid Casualties Map
+        </h1>
+        <p>
+          As of mid-December 2021, 800,000 Americans have died of the COVID-19 pandemic. That’s a lot of people—an entire medium-sized city worth of people. Their deaths have left holes in families, neighborhoods, and communities across the country.
+    
+        </p>
+        <p>
+          What would it look like if 800,000 people died in one place? This map visualization lets you see the magnitude of 800,000 people by selecting a place that’s familiar to you, and finding an equivalent number of people living around that point.
+    
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container my-2">
+        <div
+          class="notification is-warning is-light has-text-centered"
+          id="loading-modal"
+        >
+          <p class="is-size-4">
+            <button class="button is-warning is-loading"></button> Loading population
+            data …
+          </p>
+        </div>
+
+        <div
+          class="notification is-primary is-light has-text-centered is-hidden"
+          id="ready-modal"
+        >
+          <p class="is-size-5">
+            Population data ready. Click on the map below to find 800,000 people centered on the spot you clicked.
+          </p>
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <section id="map-section" class="p-5">
+      <div class="box">
+        <div id="map"></div>
+        <div id="legend-holder" class="is-hidden p-3">
+          <div class="legend-box" id="legend-box-outer-sum">
+          About <span id="outer-sum"></span> people live in the orange rectangle 
+        </div>
+        <div class="legend-box" id="legend-box-inner-sum">
+          About <span id="inner-sum"></span> people live in the yellow rectangle 
+        </div>
+        <div class="is-size-5 has-text-weight-bold">
+          This gives you an approximation for how large of an area would be lost if 800,000 people died in the same place.
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <footer class="mt-5">
+      <div class="container has-text-centered pb-5">
+        <p class="mb-2">
+          <a
+            class="button is-small is-link is-outlined"
+            href="https://www.leventhalmap.org/donate/?form=GENCAMPAIGN"
+            >💌 Support free programs at LMEC</a
+          >
+        </p>
+        <a href="https://leventhalmap.org">
+          <img
+            src="https://s3.wasabisys.com/lmec-public-files/images/MapCenter-small.png"
+            class="small-logo"
+            alt="LMEC Logo"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

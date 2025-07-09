@@ -1,0 +1,65 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: azo-sans-web, helvetica, arial, sans-serif;
+margin: 2em;
+}
+
+h1 {
+  font-weight: 700;
+  color: black;
+}
+
+.glitchButton * {
+  z-index: 10000;
+}
+
+.heading {
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: rgba(118, 11, 11, 1.00);
+  text-shadow: 2px 2px 0 rgba(199, 209, 203, 1.00);
+}
+
+
+
+#map {
+  width: 100%;
+  height: 600px;
+}
+
+#legend-holder {
+  
+}
+
+.legend-box {
+  font-weight: 600;
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+#legend-box-outer-sum {
+  border: 4px solid #e76f51;
+  border-radius: 3px;
+  color: #e76f51;
+}
+
+#legend-box-inner-sum {
+  border: 4px solid #e9c46a;
+  border-radius: 3px;
+  color: #e9c46a;
+}
+
+
+footer .small-logo { height: 50px; width: auto; }
+
+#lmec-logo {
+  height: 2.5em;
+  margin-right: 5px;
+  width: auto;
+}
+
+p {
+  margin: 1.5em 0;
+}

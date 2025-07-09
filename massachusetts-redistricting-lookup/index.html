@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"/>
+
+    <title>
+      Massachusetts Redistricting Lookup · Find proposed state-level House and
+      Senate districts · Leventhal Map & Education Center
+    </title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
+    <script src="https://unpkg.com/autocompleter@6.1.2/autocomplete.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="top-matter mb-4">
+      <div class="glitchButton m-3" style="float:right">
+        <img
+          src="https://geoservices.leventhalmap.org/files/LMEC_compass.png"
+          id="lmec-logo"
+          alt="LMEC Logo"
+        />
+      </div>
+      <div class="container">
+        <h1 class="heading is-size-2 has-text-centered">
+          Massachusetts Redistricting Lookup
+        </h1>
+        <p>
+          Every ten years, after the decennial census, the states are required to redraw the maps of their electoral districts. The Massachusetts General Court has released <a href="https://malegislature.gov/Redistricting" target="_blank">their proposed maps for the State House and Senate</a>. This tool allows you to search what district an address will belong to if the maps are approved, using data from the proposed new plan for Massachusetts.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container my-2">
+        <div
+          class="notification is-warning is-light has-text-centered"
+          id="loading-modal"
+        >
+          <p class="is-size-4">
+            <button class="button is-warning is-loading"></button> Loading map
+            data …
+          </p>
+        </div>
+
+        <div
+          class="notification is-primary is-light has-text-centered is-hidden"
+          id="ready-modal"
+        >
+          <p class="is-size-4">
+            Map data ready. Search for an address below to look up a district!
+          </p>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="field has-addons">
+          <div class="control is-expanded">
+            <input
+              class="input"
+              type="text"
+              autocomplete="off"
+              id="address-input"
+              placeholder="Enter a street address"
+            />
+          </div>
+          <div class="control">
+            <button class="button is-static">Massachusetts</button>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="results" class="mt-5 is-hidden">
+      <div class="container">
+        <div class="notification is-info">
+          <p class="is-size-3 has-text-weight-bold">
+            House district: <span id="house-result"></span>
+          </p>
+          <p class="is-size-3 has-text-weight-bold">
+            Senate district: <span id="senate-result"></span>
+          </p>
+          <p>
+            That's what we think the newly assigned districts are for the
+            address <span id="selected-address" class="has-text-weight-bold"></span>. Geocoding can be
+            inaccurate, however; for the full legal description of the proposed new
+            districts, you should visit the Massachusetts Legislature
+            <a href="https://malegislature.gov/redistricting" target="_blank"
+              >redistricting page</a
+            >.
+          </p>
+            <p class="my-3 has-text-centered">
+              <a href="https://data.leventhalmap.org/#/catalog/dkupie15y" class="button is-primary">Get data for the proposed Senate maps</a>
+              
+              <a href="https://data.leventhalmap.org/#/catalog/dkusg3ve1" class="button is-primary">Get data for the proposed House maps</a>
+          </p>
+        
+        </div>
+      </div>
+    </section>
+    
+    <section id="map-section" class="p-5">
+      <div class="box">
+        <div id="leaflet-map"></div>
+        <div class="legend-box">Legend</div>
+        <div class="legend-box" id="legend-box-senate">Proposed Senate District</div>
+                <div class="legend-box" id="legend-box-house">Proposed House District</div>
+
+
+      </div>
+           
+          
+        </div></section>
+
+    <footer class="mt-5">
+      <div class="container has-text-centered pb-5">
+        <p class="mb-2">
+          <a
+            class="button is-small is-link is-outlined"
+            href="https://www.leventhalmap.org/donate/?form=GENCAMPAIGN"
+            >💌 Support free programs at LMEC</a
+          >
+        </p>
+        <a href="https://leventhalmap.org">
+          <img
+            src="https://s3.wasabisys.com/lmec-public-files/images/MapCenter-small.png"
+            class="small-logo"
+            alt="LMEC Logo"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

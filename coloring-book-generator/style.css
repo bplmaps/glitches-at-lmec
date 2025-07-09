@@ -1,0 +1,55 @@
+/* CSS files add styling rules to your content */
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: azo-sans-web, helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  background: rgb(131,58,180);
+background: linear-gradient(45deg, rgba(131,58,180,0.1) 0%, rgba(252,176,69,0.1) 100%);
+  min-height: 100%;
+  
+}
+
+h1 {
+  font-weight: 700;
+  color: black;
+}
+
+#image-holder img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+
+footer .small-logo {
+  height: 50px;
+  width: auto;
+}
+
+.heading {
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #BC4749;
+  text-shadow: 2px 2px 0 #A7C957;
+}
+
+.top-matter p {
+  font-weight: 500;
+}
+
+.input-bg {
+  
+background: linear-gradient(0deg, rgba(131,58,180,0) 5%, rgba(164,75,111,0.1) 25%, rgba(164,75,111,0.1) 75%, rgba(252,176,69,0) 95%);
+}
+
+#lmec-logo {
+  height: 2.5em;
+  margin-right: 5px;
+  width: auto;
+}

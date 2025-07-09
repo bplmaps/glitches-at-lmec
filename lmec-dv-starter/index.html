@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="shortcut icon" type="image/png" href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"/>
+
+    
+    <!--  Change your title  -->
+    <title>
+      LMEC Data Viz Starter Project
+    </title>
+
+    <!-- External CSS goes here -->
+    <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    
+     <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+    
+    <!-- External JS goes here -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+    <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
+    <script src="https://unpkg.com/autocompleter@6.1.2/autocomplete.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <div id="hoverbox"></div>
+
+    <section class="top-matter mb-4">
+      <div class="glitchButton m-3" style="float:right;z-index:3">
+        <img
+          src="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+          id="lmec-logo"
+          alt="LMEC Logo"
+        />
+      </div>
+      <div class="container">
+        <h1 class="heading is-size-2 has-text-centered">
+          Project Name Goes
+        </h1>
+        <p class="has-text-centered">
+          You can add some text here.
+        </p>
+      </div>
+    </section>
+
+    <section class="p-5 input-bg">
+      <div class="container has-text-centered">
+        <input
+          type="text"
+          class="input"
+          placeholder="This is an input box."
+          id="url-input"
+        />
+      </div>
+      <button class="button">Button</button>
+    </section>
+
+    <section id="map-section" class="p-5">
+      <div class="box">
+        <div id="leaflet-map"></div>
+        <div class="legend-box">Legend</div>
+      </div>
+    </section>
+
+    <footer class="mt-5">
+      <div class="container has-text-centered pb-5">
+        <p class="mb-2">
+          <a
+            class="button is-small is-link is-outlined"
+            href="https://www.leventhalmap.org/donate/?form=GENCAMPAIGN"
+            >💌 Support free programs at LMEC</a
+          >
+        </p>
+        <a href="https://leventhalmap.org">
+          <img
+            src="https://s3.wasabisys.com/lmec-public-files/images/MapCenter-small.png"
+            class="small-logo"
+            alt="LMEC Logo"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

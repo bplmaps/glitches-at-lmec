@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta property="og:title" content="Election Night Boston · Leventhal Map & Education Center">
+    <meta property="og:description" content="A team of crowdsourced election observers are reporting results live from the polls as Boston elects its new mayor. Follow our interactive below to see the results of the citizen-collected data visualized on a map of Boston.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://election-night-boston.glitch.me/">
+
+    <meta property="twitter:title" content="Election Night Boston · Leventhal Map & Education Center">
+    <meta property="twitter:description" content="A team of crowdsourced election observers are reporting results live from the polls as Boston elects its new mayor. Follow our interactive below to see the results of the citizen-collected data visualized on a map of Boston.">
+    <meta property="twitter:image" content="">
+    <meta property="twitter:card" content="">
+
+    <title>
+      Election Night Boston · Leventhal Map & Education Center
+    </title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="shortcut icon" type="image/png" href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"/>
+
+    <script src="https://unpkg.com/d3@7.1.1/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.js"></script>
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="top-matter mb-4">
+      <div class="glitchButton m-3" style="float:right">
+        <img
+          src="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+          width="100px"
+          id="lmec-logo"
+          alt="LMEC Logo"
+        />
+      </div>
+      <div class="container">
+        <h1 class="heading is-size-2 has-text-centered">
+          Election Night Boston
+        </h1>
+        <p>
+          A team of
+          <a href="https://twitter.com/mdmcclos/status/1454178850695483394"
+            >crowdsourced election observers</a
+          >
+          are reporting results live from the polls as Boston elects its new
+          mayor. Follow our interactive below to see the results of the
+          <a
+            href="https://docs.google.com/spreadsheets/d/1qaH6zTO7sOfViPFNXfeU3w-E2Vi-eK7Paq30EFKFKis/edit?usp=sharing"
+            >citizen-collected data</a
+          >
+          visualized on a map of Boston.
+          You can also <a href="https://public.tableau.com/app/profile/poll.vault/viz/2021BostonLiveElectionResults/Dashboard1?publish=yes">check out the Tableau graphic</a> for an alternative view or to see City Council results. <strong>These results are reported by volunteers and do not represent official election tallies.</strong> See <a href="https://www.boston.gov/departments/election">Boston.gov</a> for full reports on municipal elections. 
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="box p-0">
+                    <div id="bottom-map">
+                      <svg id="pie-svg"></svg>
+                      <div id="overall-results-holder"></div>
+
+          </div>
+          
+          <svg id="svg"></svg>
+
+          <div id="metadata-box">
+            Results updated <span id="fetch-time"></span> · Auto-refreshing in <span id="refresh-timer"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-5">
+      <div class="container has-text-centered pb-5">
+        <p class="mb-2">
+          <a
+            class="button is-small is-link is-outlined"
+            href="https://www.leventhalmap.org/donate/?form=GENCAMPAIGN"
+            >💌 Support free programs at LMEC</a
+          >
+        </p>
+        <a href="https://leventhalmap.org">
+          <img
+            src="https://s3.wasabisys.com/lmec-public-files/images/MapCenter-small.png"
+            class="small-logo"
+            alt="LMEC Logo"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <div id="result-box">
+      <div id="result-box-info"></div>
+    </div>
+
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="shortcut icon" type="image/png" href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"/>
+    
+    <title>
+      The Lions and Lambs of March in Boston · Leventhal Map & Education Center
+      on Glitch
+    </title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="contains-all">
+      <section id="top-section">
+        <h1 id="title">The Lions and Lambs of March in Boston</h1>
+
+        <p>
+          As the saying goes, March comes "in like a 🦁, and out like a 🐑," but
+          is that really true? Here, we've visualized
+          <strong>
+            daily climate records in Boston in March from 1936 to 2020
+          </strong>
+          in order to see which dates you're likely to find lions and lambs.
+          <strong>Mouseover or tap on a day</strong> to explore historic weather in the bottom panel.
+          <span class="small"
+            >Climate data from
+            <a
+              href="https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00014739/detail"
+              >NOAA</a
+            >. Visualization by the
+            <a href="https://leventhalmap.org"
+              >Leventhal Map \& Education Center at the Boston Public Library</a
+            >.</span
+          >
+        </p>
+      </section>
+      <section id="bottom-section">
+        <div id="content"></div>
+      </section>
+      <section id="most-bottom-section">
+        <div id="info-box"></div>
+      </section>
+    </div>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;">
+      <img
+        src="https://geoservices.leventhalmap.org/files/LMEC_compass.png"
+        id="lmec-logo"
+        alt="LMEC Logo"
+      />
+    </div>
+
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

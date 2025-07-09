@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Every Different District · Sorting the Congressional Districts of the United States · Leventhal Map & Education Center</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"/>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="hoverbox">
+    </div>
+
+    <section class="top-matter mb-4">
+      <div class="glitchButton m-3" style="float:right;z-index:3">
+        <img
+          src="https://geoservices.leventhalmap.org/files/LMEC_compass.png"
+          id="lmec-logo"
+          alt="LMEC Logo"
+        />
+      </div>
+      <div class="container">
+        <h1 class="heading is-size-2 has-text-centered">Every Different District</h1>
+        <p>
+          We all know that the United States is polarized along many different dimensions. But the familiar red-blue map can make it difficult to see exactly how people, geography, and politics line up with one another. 
+          This visualization, inspired by <a href="http://automaticknowledge.org/images/uk-deprivation-constituency-2021-v1-border.png" target="_blank">Alasdair Rae's work on UK constituencies</a>, sorts US congressional districts by various demographic measures.
+          Choose a variable to sort the districts. The districts with the lowest count of the variable you've chosen will appear in the upper left; those with the highest in the lower right. Each column is a decile of districts.
+          
+        </p>
+      </div>
+    </section>
+
+    <section class="variable-selector p-5">
+      <div class="container has-text-centered">
+                        <div class="select" id="menu-holder"></div>
+
+      </div>
+    </section>
+
+    <section class="mt-5">
+      <div id="table-container">
+        <div class="table-label" id="table-label-top">
+          <p>
+           These districts have the lowest <span class="table-label-text"></span
+            >
+          </p>
+        </div>
+        
+                  <div id="sorting-modal">
+            Sorting ...
+          </div>
+        
+        <div id="table-guts">
+
+        </div>
+
+        <div class="table-label" id="table-label-bottom">
+          <p>
+            These districts have the highest
+            <span class="table-label-text"></span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-5">
+      <div class="container has-text-centered pb-5">
+        <p class="mb-2">
+          <a
+            class="button is-small is-link is-outlined"
+            href="https://www.leventhalmap.org/donate/?form=GENCAMPAIGN"
+            >💌 Support free programs at LMEC</a
+          >
+        </p>
+        <a href="https://leventhalmap.org">
+          <img
+            src="https://s3.wasabisys.com/lmec-public-files/images/MapCenter-small.png"
+            class="small-logo"
+            alt="LMEC Logo"
+          />
+        </a>
+        <p class="is-size-7 is-italic has-text-grey">
+          Data from the American Community Survey 2015–2019 5-year estimates.
+        </p>
+      </div>
+    </footer>
+
+   
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

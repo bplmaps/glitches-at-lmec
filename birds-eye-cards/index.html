@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+    />
+
+    <title>Bird's Eye Cards</title>
+
+    <!-- External CSS goes here -->
+    <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin=""
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script
+      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+      crossorigin=""
+    ></script>
+    <script src="script.js" defer></script>
+
+    <!-- External JS goes here -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+  </head>
+  <body>
+    <div id="hoverbox"></div>
+
+    <section class="top-matter mb-4">
+      <div class="glitchButton m-3" style="float: right; z-index: 3">
+        <img
+          src="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+          id="lmec-logo"
+          alt="LMEC Logo"
+        />
+      </div>
+      <div class="container">
+        <h1 class="heading is-size-2 has-text-centered">Bird’s Eye Cards</h1>
+      </div>
+    </section>
+
+    <section class="variable-selector p-5">
+      <div class="container has-text-centered">
+        <div class="select mr-2" id="menu-holder"></div>
+      </div>
+    </section>
+
+    <section class="p-5">
+      <div class="container has-text-centered">
+        <h2 id="visualization-title"></h2>
+        <div id="grid-holder" class="medium-adjuster"></div>
+      </div>
+    </section>
+
+    <footer class="mt-5">
+      <div class="container has-text-centered pb-5">
+        <p class="mb-2">
+          <a
+            class="button is-small is-link is-outlined"
+            href="https://www.leventhalmap.org/donate/?form=GENCAMPAIGN"
+            >💌 Support free programs at LMEC</a
+          >
+        </p>
+        <a href="https://leventhalmap.org">
+          <img
+            src="https://s3.wasabisys.com/lmec-public-files/images/MapCenter-small.png"
+            class="small-logo"
+            alt="LMEC Logo"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <div id="button-floater">
+      
+      <div class="select">
+  <select id="adjuster-menu">
+    <option value="big-adjuster">⬛️ Big</option>
+    <option value="medium-adjuster" selected>◾️ Medium</option>
+    <option value="small-adjuster">▪️ Small</option>
+  </select>
+</div>
+      
+      
+      
+    </div>
+
+    <div class="modal" id="modal-1">
+      <div class="modal-background modal-closer-trigger"></div>
+      <div class="modal-content">
+        <div id="leaflet-map"></div>
+      </div>
+      <button
+        class="modal-close is-large modal-closer-trigger"
+        id="modal-closer-1"
+        aria-label="close"
+      ></button>
+    </div>
+
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
