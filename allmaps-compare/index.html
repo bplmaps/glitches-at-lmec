@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+    />
+
+    <title>Allmaps Compare</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- External JS goes here -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@allmaps/leaflet/dist/bundled/allmaps-leaflet-1.9.umd.js"
+    ></script>
+
+    <!-- External CSS goes here -->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+
+    <!-- import the webpage's javascript file -->
+    <script src="leaflet-side-by-side.js"></script>
+    <script type="module" src="/script.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header class="pb-4">
+        <div class="columns is-mobile is-centered is-vcentered mt-2 mx-2">
+<!--           <div class="column is-1">
+            <a href="https://leventhalmap.org">
+              <img
+                src="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+                id="lmec-logo"
+                alt="LMEC Logo"
+              />
+            </a>
+          </div> -->
+          <div class="column is-11">
+            <h1 class="heading is-size-3 ml-2"> Allmaps Compare</h1>
+          </div>
+          <div class="column is-1">
+            <button
+              class="button is-small is-rounded is-light js-modal-trigger"
+              data-target="modal-js-example"
+            ><strong>?</strong>
+            </button>
+          </div>
+        </div>
+        <div class="columns is-centered is-mobile mx-2">
+          <div class="column is-two-fifths">
+            <input
+              class="input is-success is-rounded"
+              id="anno-left"
+              type="text"
+              value="https://annotations.allmaps.org/manifests/cfb327e4b43395e3"
+              placeholder="Left side georeference annotation..."
+            />
+          </div>
+          <div class="column is-one-fifth has-text-centered">
+            <button class="button is-info left" id="left"></button>
+            <button class="button is-primary go" id="go"></button>
+            <button class="button is-info mobile" id="right"></button>
+          </div>
+          <div class="column is-two-fifths">
+            <input
+              class="input is-success is-rounded"
+              id="anno-right"
+              type="text"
+              value="https://annotations.allmaps.org/manifests/65657fb0054a08be"
+              placeholder="Right side georeference annotation..."
+            />
+          </div>
+        </div>
+      </header>
+      <div id="map"></div>
+    </div>
+    <div id="modal-js-example" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">What's going on here?</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body" style="pointer-events: auto">
+          <div class="content" style="pointer-events: auto">
+            <h1>Allmaps</h1>
+            <p>
+              <a href="https://allmaps.org">Allmaps</a> is an open-source software ecosystem that makes it easier and more fun to georeference maps.
+              It uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API">WebGL</a> and the <a href="https://iiif.io/">IIIF protocol</a> to overlay maps entirely in a web browser—no software download necessary.</p>
+              Allmaps is based on the <a href="https://iiif.io/api/extension/georef/#3-web-annotations-for-georeferencing">georeference annotation</a>, a JSON-based metadata format that stores all the information required to georeference a map.
+            <p>
+              There are two main applications in the Allmaps software ecosystem:
+              <ul>
+                <li>Use <a href="https://editor.allmaps.org">Allmaps Editor</a> to georeference maps</li>
+                <li>Use <a href="https://viewer.allmaps.org">Allmaps Viewer</a> to view georeferenced maps</li>
+            </ul>
+            </p>
+            <h1>Using this side-by-side app</h1>
+            <p>
+              This tool, built with <a href="https://glitch.com/">Glitch</a>, uses the <a href="https://github.com/allmaps/allmaps/tree/main/packages/leaflet">Allmaps Leaflet Plugin</a> to load georeferenced maps and compare them side by side.
+              To compare one georeferenced map against another, simply paste the georeference annotation of a map.
+            </p>
+            <p>
+              Any map that has been georeferenced using Allmaps has a georeference annotation.
+              You can find it by loading a IIIF-compliant map in Allmaps Editor, clicking the <img style="width:30px;" src="https://cdn.glitch.global/11c814d4-3663-432f-8a55-488cc83800a2/codesnip.png?v=1734041383665"> button, as seen in the screenshot below:</p>
+            <p>
+              <img class="box" src="https://cdn.glitch.global/11c814d4-3663-432f-8a55-488cc83800a2/annotation.png?v=1734041304858">
+            </p>
+          <p>
+            Then, paste the annotation—the value of <code>"id"</code>—in the left- or right-hand input boxes of this app and click <button class="button is-primary is-small">Load!</button>
+          </p>
+          </div>
+        </section>
+        <footer class="modal-card-foot">
+          <i style="font-size:0.8em;">
+            This app was created by staff at the <a href="https://leventhalmap.org">Leventhal Map & Education Center at the Boston Public Library</a> as part of our NEH-funded work <a href="https://lmec-ws.observablehq.cloud/allmaps-news/">supporting the development and sustainability of Allmaps.</a>
+          </i>
+        </footer>
+      </div>
+    </div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

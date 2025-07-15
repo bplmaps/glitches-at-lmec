@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+    />
+
+    <title>Massachusetts Towns Challenge</title>
+
+    <!-- External CSS goes here -->
+    <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="https://cdn.glitch.me/6bcd3ca3-8fd5-440e-8129-39615d80280d/towns.geojson?v=1667244527159"></script>
+    <script src="/script.js" defer></script>
+
+    <!-- External JS goes here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.1.0/openseadragon.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.js"></script>
+  </head>
+
+  <body>
+    <div id="hoverbox"></div>
+
+    <section class="gradient">
+      <div class="glitchButton m-3" style="float: right; z-index: 3">
+        <img
+          src="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+          id="lmec-logo"
+          alt="LMEC Logo"
+        />
+      </div>
+      <div class="container" id="form">
+        <h1 class="title is-1 p-4 has-text-centered">MASS TOWNS CHALLENGE</h1>
+      </div>
+    </section>
+
+    <section class="input-bg mb-5 mx-6">
+      <div class="container has-text-centered">
+        <input
+          type="text"
+          class="input mb-2"
+          name="town-name"
+          placeholder="Can you name all 351 towns and cities in the Commonwealth?"
+          id="town-name"
+        />
+        <button id="btn" class="button" type="submit">Enter</button>
+      </div>
+    </section>
+
+    <section class="mx-6 pb-6">
+      <div class="columns">
+        <!--         <div class="column is-one-half mx-2 mb-6"> -->
+        <!--           <div class="columns">
+            <div class="column box">
+              <div id="content">
+                <svg width="600px" height="400px">
+                  <g class="svg-map"></g>
+                </svg>
+              </div>
+            </div>
+          </div> -->
+        <!--           <div class="columns mt-2"> -->
+        <div class="column box mx-2 mb-6">
+          <h1 class="mapsLabel"></h1>
+          <div class="map-box">
+            <a class="collectionsLink" target="blank">
+              <img
+                class="map center"
+                src="https://cdn.glitch.global/6bcd3ca3-8fd5-440e-8129-39615d80280d/lmec-logo-blue.png?v=1666212483995"
+                style="width: auto; height: auto"
+              />
+            </a>
+          </div>
+        </div>
+        <!--           </div> -->
+        <!--         </div> -->
+        <div class="column box is-one-half mx-2 mb-6">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <p id="score">Score: 0/351</p>
+            </div>
+          </div>
+          <div class="columns mapGallery is-centered">
+            <div class="column is-one-quarter has-text-centered">
+              <div class="list-container">
+                <ul id="correct-list-l" class="is-hovered"></ul>
+              </div>
+            </div>
+            <div class="column is-one-quarter has-text-centered">
+              <div class="list-container">
+                <ul id="correct-list-m"></ul>
+              </div>
+            </div>
+            <div class="column is-one-quarter has-text-centered">
+              <div class="list-container">
+                <ul id="correct-list-r"></ul>
+              </div>
+            </div>
+            <div class="column is-one-quarter has-text-centered">
+              <div class="list-container">
+                <ul id="correct-list-fr"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="columns is-centered">
+        <div class="column is-one-quarter has-text-centered">
+          <p>
+            <a
+              class="button is-small is-link is-outlined"
+              href="https://www.leventhalmap.org/donate/?form=GENCAMPAIGN"
+              >💌 Support free programs at LMEC</a
+            >
+          </p>
+        </div>
+        <div class="column is-one-quarter has-text-centered">
+          <p>
+            <a
+              class="button is-small is-link is-outlined"
+              href="https://github.com/CogappLabs/states-challenge"
+              >🔄 Remixed from Cogapp</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

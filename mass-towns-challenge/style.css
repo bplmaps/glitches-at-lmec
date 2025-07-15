@@ -1,0 +1,162 @@
+/* CSS files add styling rules to your content */
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: azo-sans-web, helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  background: rgb(31, 158, 190);
+  background: linear-gradient(
+    45deg,
+    rgba(31, 158, 180, 0.1) 0%,
+    rgba(252, 176, 69, 0.1) 100%
+  );
+  min-height: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  color: black;
+}
+
+footer {
+  height: 25;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem 1rem 1rem !important;
+
+}
+
+.title {
+  font-weight: 700;
+  letter-spacing: -3px;
+  color: #2567cd;
+  text-shadow: 4px 4px 0 #a7c957;
+}
+
+.top-matter p {
+  font-weight: 500;
+}
+
+.input-bg {
+/*   background: linear-gradient(
+    0deg,
+    rgba(191, 158, 120, 0) 5%,
+    rgba(64, 175, 119, 0.1) 25%,
+    rgba(110, 175, 111, 0.1) 75%,
+    rgba(252, 136, 69, 0) 95%
+  ); */
+}
+
+.input {
+  max-width: 600px;
+}
+
+#lmec-logo {
+  height: 2.5em;
+  margin-right: 5px;
+  width: auto;
+}
+
+/* .container {
+  max-width: 100%;
+  margin: 36px 0;
+  padding: 16px 36px 0px 16px;
+  border-radius: 12px;
+} */
+
+#notice {
+  font-weight: bold;
+}
+
+.notice-style {
+  height: 18px;
+  padding: 16px 0;
+}
+
+.button {
+  text-align: center;
+  
+  margin: 0;
+  position: relative;
+/*   top: 50%; */
+/*   -ms-transform: translateY(-50%); */
+/*   transform: translateY(-50%); */
+}
+
+.columns {
+/*   max-width: 1200px; */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.map-box {
+  overflow-y: scroll;
+  height: 500px;
+  max-height: 500px
+}
+
+.mapGallery {
+  overflow-y: scroll;
+/*   height: 500px; */
+  max-height: 500px;
+  
+}
+
+.gradient {
+  background: linear-gradient(
+    0deg,
+    rgba(191, 158, 120, 0) 5%,
+    rgba(64, 175, 119, 0.1) 25%,
+    rgba(110, 175, 111, 0.1) 75%,
+    rgba(252, 136, 69, 0) 95%
+  );
+}
+
+.gallery-item {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.mapsLabel {
+  text-align: center;
+}
+
+#content .svg-map path {
+  fill: #ffffff;
+  stroke: #aaaaaa;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* aspect ratio */
+  vertical-align: top;
+  overflow: hidden;
+}
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.notown {
+  max-height: 90px;
+  max-width: 90px;
+  height: auto;
+  width: auto;
+}
