@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "hero-new", sans-serif;
+  background: linear-gradient(#e4ffee, #ffcad8);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.header-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  z-index: 10;
+}
+
+.header-title {
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  align-items: start;
+}
+
+.column.custom-bg a {
+  font-family: monospace;
+  display: block;
+  text-align: center;
+  padding: 1.25rem;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.column.custom-bg.project-tile a:hover {
+  transform: scale(1.03);
+}
+
+#help {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  background: #363636;
+  color: white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  user-select: none;
+}
+
+.project-tile {
+  position: relative;
+  text-align: center;
+  padding: 1.25rem;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.project-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(30, 30, 30, 0.85);
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.project-tile:hover .project-description {
+  opacity: 1;
+  transform: translateY(0);
+}

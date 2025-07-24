@@ -1,141 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glitches at LMEC</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <link rel="shortcut icon" type="image/png"
-    href="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png" />
-
-  <title>Glitches at LMEC</title>
-
-  <!-- External CSS goes here -->
-  <link rel="stylesheet" href="https://use.typekit.net/dnd5qwo.css" />
-  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.2/css/bulma.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
-    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
-    crossorigin="" />
-
-  <!-- import the webpage's javascript file -->
-
-  <!-- External JS goes here -->
-</head>
-
-<body>
-  <div class="mr-4" style="float: right; z-index: 3">
-    <a href="https://leventhalmap.org" target="blank"><img class="image is-48x48 is-inline-block"
-        src="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
-        alt="LMEC Logo" /></a>
-  </div>
-
-  <div class="has-text-centered">
-    <h1 class="is-size-1 is-family-primary has-text-black m-4 has-text-weight-bold">
-      GLITCHES AT LMEC
-    </h1>
-    <div class="container is-max-tablet">
-      <div class="notification is-size-5 m-6">
-        In July 2025,
-        <a href="https://glitch.com/" target="blank">Glitch</a> wound down
-        project hosting. This page contains web apps built with and hosted on
-        Glitch between 2021 and 2025. All projects were exported from Glitch
-        with minimal to zero edits to the code. They now deploy to Netlify
-        from
-        <a href="https://github.com/bplmaps/glitches-at-lmec" target="blank">GitHub</a>.
+  <body>
+    <header class="header-container p-4">
+      <div class="header-left is-flex is-align-items-center">
+        <a
+          href="https://leventhalmap.org"
+          target="_blank"
+          class=""
+        >
+          <img
+            src="https://s3.us-east-2.wasabisys.com/lmec-public-files/images/LMEC_compass_transparent.png"
+            alt="LMEC Logo"
+            class="image is-32x32 mr-2"
+          /></a>
+          <span class="is-size-5 has-text-weight-semibold has-text-black"
+            >GLITCHES AT LMEC</span
+          >
       </div>
+    </header>
+
+    <!-- Help button (top-right) -->
+    <div
+      id="help"
+      class="is-clickable"
+    >
+      ❔
     </div>
-    <div class="columns is-multiline m-6">
-      <div class="column is-one-quarter has-background-info">
-        <a href="birds-eye-cards" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          birds-eye-cards
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-danger">
-        <a href="building-blocks-building-text" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          building-blocks-building-text
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-primary">
-        <a href="coloring-book-generator" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          coloring-book-generator
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-warning">
-        <a href="covid-casualties" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          covid-casualties
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-link">
-        <a href="election-night-boston" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          election-night-boston
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-success">
-        <a href="every-different-district" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          every-different-district
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-info">
-        <a href="lmec-dv-starter" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          lmec-dv-starter
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-danger">
-        <a href="map-remix" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          map-remix
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-primary">
-        <a href="march-lions-lambs" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          march-lions-lambs
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-warning">
-        <a href="massachusetts-library-spider-map" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          massachusetts-library-spider-map
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-link">
-        <a href="massachusetts-synagogues-atlas" target="_blank"
-          class="box has-background-light has-text-dark has-text-weight-semibold is-clickable">
-          massachusetts-synagogues-atlas
-        </a>
-      </div>
-      <div class="column is-one-quarter has-background-success">
-        <a href="neighbors-in-name-only" target="_blank"
-          class="box has-text-dark has-text-weight-semibold is-clickable">
-          neighbors-in-name-only
-        </a>
-      </div>
-      <div class="column is-one-third has-background-info">
-        <a href="allmaps-compare" target="_blank" class="box has-text-dark has-text-weight-semibold is-clickable">
-          allmaps-compare
-        </a>
-      </div>
-      <div class="column is-one-third has-background-danger">
-        <a href="massachusetts-redistricting-lookup" target="_blank"
-          class="box has-text-dark has-text-weight-semibold is-clickable">
-          massachusetts-redistricting-lookup
-        </a>
-      </div>
-      <div class="column is-one-third has-background-primary">
-        <a href="mass-towns-challenge" target="_blank" class="box has-text-dark has-text-weight-semibold is-clickable">
-          mass-towns-challenge
-        </a>
-      </div>
-    </div>
-  </div>
-</body>
 
+    <!-- Modal -->
+    <div class="modal" id="help-modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <div class="box has-text-left">
+          <p class="is-size-5">
+            In July 2025,
+            <a href="https://glitch.com/" target="_blank">Glitch</a> wound down
+            project hosting. This page contains web apps built with and hosted
+            on Glitch between 2021 and 2025. All projects were exported from
+            Glitch with minimal to zero edits to the code. They now deploy to
+            Netlify from
+            <a
+              href="https://github.com/bplmaps/glitches-at-lmec"
+              target="_blank"
+              >GitHub</a
+            >.
+          </p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+      <div id="projects" class="columns is-multiline m-6"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
