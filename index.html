@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -37,8 +38,7 @@
           >
       </div>
     </header>
-
-    <!-- Help button (top-right) -->
+    
     <div
       id="help"
       class="is-clickable"
@@ -46,7 +46,6 @@
       ❔
     </div>
 
-    <!-- Modal -->
     <div class="modal" id="help-modal">
       <div class="modal-background"></div>
       <div class="modal-content">
@@ -71,6 +70,9 @@
 
       <div id="projects" class="columns is-multiline m-6"></div>
     </main>
+    <footer class="pb-6">
+      <p>A project of the <a href="https://leventhalmap.org" target="blank">Leventhal Map & Education Center</a> at the Boston Public Library • <a href="https://www.leventhalmap.org/donate/" target="blank">Support our work</a></p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

@@ -160,3 +160,17 @@ footer {
   height: auto;
   width: auto;
 }
+
+.score {
+  font-size: 1.5em;
+}
+
+.mapsLabelHeader {
+  font-size: 1em;
+}
+
+.mapsLabel {
+  font-size: 1.5em;
+}
+
+

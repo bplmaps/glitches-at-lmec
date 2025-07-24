@@ -14,7 +14,7 @@ const projects = [
   ["neighbors-in-name-only", "Look at Boston’s neighborhoods in name only"],
   ["allmaps-compare",  "Use Allmaps to compare maps"],
   ["massachusetts-district-lookup", "Explore political boundaries in Massachusetts"],
-  ["mass-towns-challenge",  "Test your Massachusetts town name knowledge"],
+  ["towns-challenge",  "Test your Massachusetts town name knowledge"],
   ["town-after-town", "Where do New England towns share the same name?"]
 ];
 
@@ -47,13 +47,21 @@ projects
   .sort((a, b) => a[0].localeCompare(b[0]))
   .forEach(([name, description]) => {
     const color = colors[random(0, colors.length)];
-
+    
     const column = document.createElement("div");
+
     column.className = `column is-one-third custom-bg`;
 
     const wrapper = document.createElement("div");
     wrapper.className = `project-tile`;
     wrapper.style.backgroundColor = color;
+
+    const githubLink = document.createElement("a");
+    githubLink.className = `github-link mx-4`
+    githubLink.href = `https://github.com/bplmaps/glitches-at-lmec/tree/main/${name}`;
+    githubLink.target = "_blank";
+    githubLink.innerHTML = `<i class="fab fa-github fa-lg"</i>`;
+    githubLink.style.backgroundColor = color;
 
     const link = document.createElement("a");
     link.href = name;
@@ -66,6 +74,7 @@ projects
 
     wrapper.appendChild(link);
     wrapper.appendChild(desc);
+    column.appendChild(githubLink)
     column.appendChild(wrapper);
     container.appendChild(column);
   });

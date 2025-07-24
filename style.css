@@ -41,8 +41,16 @@ html, body {
   transition: transform 0.2s ease;
 }
 
-.column.custom-bg.project-tile a:hover {
-  transform: scale(1.03);
+.github-link {
+  width: 10px;
+  border-radius: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: transform 0.2s ease !important;
+  &:hover {
+    transform: scale(1.2) !important;
+  }
 }
 
 #help {
@@ -67,11 +75,11 @@ html, body {
 .project-tile {
   position: relative;
   text-align: center;
-  padding: 1.25rem;
+  padding: 1rem;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.85);
   font-weight: 600;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  /* box-shadow: 0 2px 6px rgba(0,0,0,0.1); */
   overflow: hidden;
   transition: transform 0.2s ease;
 }
@@ -96,4 +104,10 @@ html, body {
 .project-tile:hover .project-description {
   opacity: 1;
   transform: translateY(0);
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  color:#9f6f7c
 }

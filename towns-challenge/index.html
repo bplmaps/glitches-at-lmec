@@ -26,7 +26,6 @@
 
     <!-- External JS goes here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.1.0/openseadragon.min.js"></script>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.js"></script>
   </head>
@@ -74,6 +73,11 @@
           </div> -->
         <!--           <div class="columns mt-2"> -->
         <div class="column box mx-2 mb-6">
+          <div class="columns is-centered">
+            <div class="column is-8 has-text-centered">
+              <p class="mapsLabelHeader"></p>
+            </div>
+          </div>
           <h1 class="mapsLabel"></h1>
           <div class="map-box">
             <a class="collectionsLink" target="blank">
@@ -90,7 +94,8 @@
         <div class="column box is-one-half mx-2 mb-6">
           <div class="columns is-centered">
             <div class="column has-text-centered">
-              <p id="score">Score: 0/351</p>
+              <p id="score" class="score"><b>Score: 0/351</b></p>
+              <p id="seeAgain"></p>
             </div>
           </div>
           <div class="columns mapGallery is-centered">

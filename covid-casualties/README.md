@@ -1,4 +1,3 @@
-# Massachusetts Redistricting Lookup
+# Covid Casualties
 
-
-
+Visualizing loss from COVID-19
