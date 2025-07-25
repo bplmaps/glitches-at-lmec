@@ -11,7 +11,7 @@ const projects = [
   ["map-remix", "Remix a map from LMEC's environmental justice exhibition"],
   ["march-lions-lambs",  "Do sayings stack up against data?"],
   ["massachusetts-library-spider-map", "Walk across libraries with a funny spider"],
-  ["neighbors-in-name-only", "Look at Boston’s neighborhoods in name only"],
+  ["neighbors-in-name-only", "Compare Massachusetts towns that are neighbors... in name only"],
   ["allmaps-compare",  "Use Allmaps to compare maps"],
   ["massachusetts-redistricting-lookup", "Explore political boundaries in Massachusetts"],
   ["towns-challenge",  "Test your Massachusetts town name knowledge"],
