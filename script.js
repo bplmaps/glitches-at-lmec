@@ -13,7 +13,7 @@ const projects = [
   ["massachusetts-library-spider-map", "Walk across libraries with a funny spider"],
   ["neighbors-in-name-only", "Look at Boston’s neighborhoods in name only"],
   ["allmaps-compare",  "Use Allmaps to compare maps"],
-  ["massachusetts-district-lookup", "Explore political boundaries in Massachusetts"],
+  ["massachusetts-redistricting-lookup", "Explore political boundaries in Massachusetts"],
   ["towns-challenge",  "Test your Massachusetts town name knowledge"],
   ["town-after-town", "Where do New England towns share the same name?"]
 ];
