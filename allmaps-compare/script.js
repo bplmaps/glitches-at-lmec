@@ -41,7 +41,7 @@ map.addLayer(streets_base);
 
 // define and load default warped maps
 
-annotationUrl_Left = 'https://annotations.allmaps.org/manifests/cfb327e4b43395e3'
+annotationUrl_Left = 'https://annotations.allmaps.org/manifests/2eca34774f8453af'
 wml_l = new Allmaps.WarpedMapLayer(annotationUrl_Left).addTo(map);
 annotationUrl_Right = 'https://annotations.allmaps.org/manifests/0f37acecf953fff2'
 wml_r = new Allmaps.WarpedMapLayer(annotationUrl_Right).addTo(map);
